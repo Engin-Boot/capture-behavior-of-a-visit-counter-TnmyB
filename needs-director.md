@@ -6,7 +6,7 @@ Scenario: Show patient visits during working days and holidays
   
   When: Count the number of patients from the entry card issuer for each day
   
-  Then: Data for working and holidays is obtained
+  Then: Can see data for working days and holidays 
 
 Scenario: Compute parking slots to reserve for visiting specialists
 

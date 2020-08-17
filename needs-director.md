@@ -2,7 +2,7 @@
 
 Scenario: Show patient visits during working days and holidays
 
-  Given: The data entry card issuer works, records purpose of visit and holidays are known
+  Given: Data entry card issuer works, records purpose of visit, holidays known
   
   When: Count the number of patients from the entry card issuer for each day
   
@@ -13,7 +13,7 @@ Scenario: Compute parking slots to reserve for visiting specialists
   Given: foot-fall counter maintains real-time count of people inside hospital
          and count of total parking spaces
 
-  When: number of vehicles in parking can be estimated as
+  When: number of vehicles in parking are estimated as
         number of persons inside by 2
   
   Then: if the number is less than 20% of total parking spaces

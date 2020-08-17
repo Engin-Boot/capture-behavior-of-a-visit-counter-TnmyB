@@ -2,11 +2,11 @@
 
 Scenario: Show patient visits during working days and holidays
 
-  Given: The data entry card issuer works and records purpose of visit
+  Given: The data entry card issuer works, records purpose of visit and holidays are known
   
   When: Count the number of patients from the entry card issuer for each day
   
-  Then: Data for working and holidays can be identified
+  Then: Data for working and holidays is obtained
 
 Scenario: Compute parking slots to reserve for visiting specialists
 

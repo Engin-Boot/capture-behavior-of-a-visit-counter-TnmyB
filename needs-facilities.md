@@ -8,6 +8,7 @@ Scenario: Report visitor trends during a week of operation
 
 Scenario: Alert when seating capacity is full
 
-  Given: Total capacity, the data entry card issuer is working and records data for purpose of visit
+  Given: Total capacity, the data entry card issuer is working
+  and records data for purpose of visit
   When: The count of patients is 2 less than the total capacity of hospital
   Then: Inform Facilities Manager and reserve seats for emergency cases

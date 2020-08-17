@@ -15,4 +15,4 @@ Scenario: Alert when seating capacity is full
   
   When: The count of patients is 2 less than the total capacity of hospital
   
-  Then: Inform Facilities Manager and reserve seats for emergency cases
+  Then: Inform Facilities Manager and reserve seats for emergency
